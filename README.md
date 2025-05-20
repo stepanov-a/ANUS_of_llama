@@ -15,7 +15,7 @@
   <a href="https://github.com/nikmcfly/ANUS/issues"><img src="https://img.shields.io/github/issues/nikmcfly/ANUS.svg" alt="GitHub issues"></a>
   <a href="https://makeapullrequest.com"><img src="https://img.shields.io/badge/PRs-welcome-brightgreen.svg" alt="PRs Welcome"></a>
   <a href="https://anus-ai.github.io/docs"><img src="https://img.shields.io/badge/docs-latest-brightgreen.svg" alt="Documentation Status"></a>
-  <a href="https://t.me/goanus"><img src="https://img.shields.io/badge/Telegram-blue?logo=telegram&logoColor=white" alt="Telegram"></a>
+  <a href="https://discord.gg/anus-ai"><img src="https://img.shields.io/discord/1234567890?color=7289da&label=Discord&logo=discord&logoColor=white" alt="Discord"></a>
 </p>
 
 ## Table of Contents
@@ -271,6 +271,16 @@ anthropic:
 # Optional: Configure tool-specific settings
 browser:
   headless: true
+```
+
+Or a local LLM using Ollama
+
+```yaml
+llm:
+  provider: openai
+  model_name: qwq:32b
+  max_tokens: 131072,
+  base_url: http://localhost:11434/v1
 ```
 
 ## 🚀 Quick Start
@@ -596,7 +606,9 @@ Please note that this project is released with a [Contributor Code of Conduct](C
 
 Join our community to get help, share ideas, and contribute to the project:
 
-- [Telegram Channel](https://t.me/goanus)
+- [Discord Server](https://discord.gg/anus-ai)
+- [Twitter](https://twitter.com/anus_ai)
+- [Reddit](https://reddit.com/r/anus_ai)
 
 ## 📝 License
 
